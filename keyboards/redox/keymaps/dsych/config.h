@@ -18,13 +18,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* Select hand configuration */
-//#define MASTER_LEFT
+// #define MASTER_LEFT
 // #define MASTER_RIGHT
 #define EE_HANDS
 #define SPLIT_USB_DETECT
-
-// double tapping left shift enables caps word
 #define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+#define MK_KINETIC_SPEED // pointer speed as a function of a quadratic curve
 
 #undef RGBLED_NUM
 #define RGBLIGHT_EFFECT_BREATHING
